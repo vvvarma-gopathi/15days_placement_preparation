@@ -69,8 +69,8 @@ def find_student(student):
     students = ["Ravi", "Anil", "Kiran", "Suresh"]
     for student in students:
         if student == student:
-            return 'Kiran is found in students'
-    return 'kiran is not found in students'
+            return f'{student} is found in students'
+    return f'{student} is not found in students'
 
 print(find_student('Kiran'))
 print(find_student('Anil'))
